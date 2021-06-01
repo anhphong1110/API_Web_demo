@@ -1,5 +1,5 @@
 *** Settings ***   
-Resource    ../PageObject/Api/NotificationKW.robot
+Resource    ../Api/Function/NotificationKW.robot
 Suite Setup       Common-Api Get login token    notification
 Suite Teardown          Delete All Sessions
 
