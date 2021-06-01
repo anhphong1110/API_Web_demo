@@ -4,7 +4,7 @@ Suite Setup       Common-Api Get login token    notification
 Suite Teardown          Delete All Sessions
 
 *** Test Cases ***
-1_API GET list notification response success with valid data
+1_API GET list notification response success with valid data 
     When Call API List notifications with valid data 
     Then Server response status "success" and code 200
 
