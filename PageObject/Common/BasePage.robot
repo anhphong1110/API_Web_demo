@@ -1,5 +1,6 @@
 #Common KWs are using all pages
 *** Settings ***
+Resource    BaseTest.robot
 
 *** Keywords ***
 Custom locator
