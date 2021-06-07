@@ -3,6 +3,9 @@ Resource    ../Common/BaseAPI.robot
 
 
 *** Keywords ***
+Login token is get from api login
+    Common-Api Get login token    notification
+
 Call API List notifications with valid data 
     [Tags]  get
     &{headers_post}=    Create Dictionary    Accept=application/json    Authorization=Bearer ${token}
